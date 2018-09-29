@@ -1,1 +1,2 @@
-*.zip
+dst/*
+!dst/.gitkeep
