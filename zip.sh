@@ -7,5 +7,5 @@ if [[ -f $dst ]]; then
   echo "$version.zip already exists!"
   exit 1
 else
-  git archive -v -o dst/$version.zip HEAD:src
+  git archive -v -o $dst HEAD:src
 fi
