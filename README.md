@@ -13,3 +13,8 @@ Save open tabs in Chrome to check them later.
 * Click on the TabMarks menu icon.
 * Saved tabs can be accessed under:  
   Bookmarks Bar > Tabs > _yyyy-MM-hh HH:mm:ss_.
+
+### Sync between devices
+
+- Since this extension uses plain bookmarks the saved tabs are synced between  
+  desktop, mobile or other devices with a Chrome browser.
