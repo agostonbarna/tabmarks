@@ -79,7 +79,9 @@ function getTabsFolderNode(callback) {
 }
 
 function getFormattedDate() {
-  return new Date().toISOString().slice(0, -5).replace('T', ' ');
+  const date = new Date();
+  return new Date(date.getTime() - date.getTimezoneOffset() * 60000)
+    .toISOString().slice(0, -5).replace('T', ' ');
 }
 
 chrome.browserAction.onClicked.addListener(currentTab =>
